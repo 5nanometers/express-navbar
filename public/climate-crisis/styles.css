@@ -1,0 +1,207 @@
+.navigation-bar {
+  border: thick black;
+}
+
+.news-button {
+  border: thick black;
+}
+
+.hiring-button {
+  border: thick black;
+}
+
+.about-us-button {
+  border: thick black;
+}
+
+.main-content {
+  border: thick black;
+  margin-top: 50px;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.header-block {
+  border: thick black;
+}
+
+.article {
+  margin: 25px auto 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+body {
+  background-color: rgb(233, 238, 240);
+  min-height: 100vh;
+}
+.nav_container {
+  display: flex;
+  background-color: white;
+  box-shadow: 3px 3px 5px (0, 0, 0, 0.1);
+  width: 100vw;
+  padding-left: 15vw;
+  position: fixed;
+}
+.toggle_button {
+  background-color: steelblue;
+  display: none;
+  height: 30px;
+  width: 30px;
+  padding-left: 8px;
+  padding-top: 6px;
+  margin-top: 5px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(150, 142, 142);
+}
+
+.toggle_button:hover {
+  background-color: rgb(40, 194, 212);
+}
+
+.navBar {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBar li {
+  height: 25px;
+}
+
+.navBarMobile {
+  margin: 10px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  position: fixed;
+  background-color: white;
+}
+
+.main-container {
+  display: flexbox;
+  flex-direction: column;
+  width: 70vw;
+}
+
+.website-logo {
+  height: 50px;
+}
+.logo-img {
+  height: 50px;
+  width: auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  display: block;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+li:hover {
+  background-color: azure;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: rgb(156, 216, 218);
+  margin-bottom: 0;
+  margin-left: 0;
+  width: 100vw;
+  min-height: 10vh;
+}
+
+.footer-notes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input {
+  padding: 5px;
+  margin: 4px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.social i {
+  margin: 20px;
+  font-size: x-large;
+}
+
+.social i:hover {
+  color: aliceblue;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: purple;
+}
+
+@media (max-width: 600px) {
+  .footer-notes {
+    display: flex;
+    flex-direction: column;
+  }
+  .navBar {
+    display: none;
+  }
+
+  .toggle_button {
+    display: block;
+    position: fixed;
+    right: 17vw;
+  }
+  .nav_container {
+    display: flex;
+  }
+}
